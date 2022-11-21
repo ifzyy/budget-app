@@ -44,13 +44,13 @@ gem 'tzinfo-data'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
-
+gem 'cancancan'
 # Use Sass to process CSS
 gem 'sass'
 gem 'sassc-rails'
 gem 'sass-listen', '~> 4.0'
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-# gem "image_processing", "~> 1.2"
+gem 'image_processing', '~> 1.2'
 
 gem 'will_paginate', '~> 3.3', '>= 3.3.1'
 
