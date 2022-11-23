@@ -15,13 +15,12 @@ class CategoriesController < ApplicationController
       flash[:success] = 'Category successfully created'
       redirect_to categories_path
     else
-      flash[:error] = 'Something went wrong'
+      flash[:danger] = 'Something went wrong'
       render 'new'
     end
   end
 
   def show
-    # @category = Category.includes(:user).find(params[:id])
     @category = Category.includes(:businesses).find(params[:id])
     @transactions = @category.businesses.order(created_at: :desc)
   end

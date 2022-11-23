@@ -1,0 +1,38 @@
+<section class='categories_controllers'>
+  <div class="category-section">
+     <h2 class="all-transaction">All Transactions</h2>
+     <div class="add-category-wrapper">
+        <div class="add-new-category">
+          <%= button_to "Add new category", new_category_path, method: :get, class: 'category-btn' %>
+        </div>
+     </div>
+     <div class="container">
+<% if @categories.length > 0 %>
+      <ul class="category-lists-wrapper">
+          <% @categories.each do |category| %>
+           <%= link_to category_path(category.id), method: :get do %>
+          <li class="category-li">
+            <div class='desc'>
+              <ion-icon name="<%= category.icon %>" class="list-image transaction-img <%= category.icon %>"></ion-icon>
+              <span class="desc-text">
+                <p><%= category.name %></p>
+                <small><%= category.created_at.to_date.strftime("%d %b, %Y") %></small>
+              </span>
+            </div>
+              <p class='strong'> $<%= category.businesses.sum(:amount) || '0.00'%>
+
+              </p>
+          </li>
+          <% end %>
+          <% end %>
+      </ul>
+
+     </div>
+     
+
+   <% else %>
+          <p class="nil-category">No Category Added yet</p>
+      <% end %>
+  <div>
+</div>
+</section>
