@@ -1,6 +1,6 @@
 # Project Name
 
-Savier
+# Savier
 
 # Description the project.
 
@@ -14,7 +14,7 @@ No better way to keep track of your money :)
   _**Postgresql**_
 - Frameworks:
   _**Ruby On Rails**_
-  _**Tailwind Css**_
+  _**Bootstrap**_
 - Technologies used: _**Visual Studio Code**_
 
 ### Requirements
