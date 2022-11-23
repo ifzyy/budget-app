@@ -1,24 +1,126 @@
-# README
+# Project Name
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Savier
 
-Things you may want to cover:
+# Description the project.
 
-* Ruby version
+Savier is a Ruby on Rails mobile web application that allows users to keep track of their expenses and categories. have a list of transactions associated with a category, so that the user can see how much money it spent and on what. Manage your own money, manage your own life.
+No better way to keep track of your money :)
 
-* System dependencies
+## Built With
 
-* Configuration
+- Languages:
+  _**Ruby**_
+  _**Postgresql**_
+- Frameworks:
+  _**Ruby On Rails**_
+  _**Tailwind Css**_
+- Technologies used: _**Visual Studio Code**_
 
-* Database creation
+### Requirements
 
-* Database initialization
+In order to work on this project, you need to have the following dependencies installed:
 
-* How to run the test suite
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Postgresql](https://www.postgresql.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/)
+- [Rails](https://rubyonrails.org/)
 
-* Services (job queues, cache servers, search engines, etc.)
+### Click 👇 for the Live Demo Link
+- [Live-Demo]()
 
-* Deployment instructions
+### Click here for Video Link
 
-* ...
+- [Video link]()
+
+## Getting Started
+
+### Clone this repository
+
+```bash
+$ git clone https://github.com/ifzyy/Budget-app.git
+$ cd recipe-app
+```
+
+### Commands to run
+
+Run
+
+```bash
+$ bundle install
+```
+
+To get all the gems required for the project
+
+Then, run
+
+```bash
+$ npm install
+```
+
+To install packages such as style linters
+
+To check linters locally, use
+
+```bash
+$ rubocop
+$ npx stylelint "**/*.{css,scss}"
+```
+
+Once you have the project correctly set up, run
+
+```bash
+$ bin/rails db:setup
+```
+
+To run all migrations, create the database for testing and for development, and insert some data into the database for you to visualize the changes
+
+Finally, each time you make changes to the project, run
+
+```bash
+$ bundle exec rspec /spec
+```
+
+In the root folder to check the consistency of the app. Please don't make changes to the tests unless completely necessary, and mention it in your PR description.
+
+Important note: Since this project uses TailwindCSS for the styling, you need to run:
+
+```bash
+$ ./bin/dev
+```
+
+For you to see the styling being applied in the browser during development
+
+## Author
+
+👤 **Johnson Emmanuel**
+
+- GitHub: [@githubhandle](https://github.com/ifzyy)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/johnson-emmanuel)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+### Web Design
+
+All the template colors, font, and layout distribution for the whole project were designed by [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance. A link to the project [can be found here](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=). Check Gregoire for more amazing GUI and Graphic designs!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- LazyCoders
+- Coding Partners
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
