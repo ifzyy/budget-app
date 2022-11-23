@@ -1,0 +1,277 @@
+#flash_alert,
+#flash_notice {
+  background-color: #74449e !important;
+  color: white !important;
+  font-weight: bold;
+  padding: 13px !important;
+  border-radius: 5px !important;
+}
+
+.in {
+  color: white !important;
+}
+
+.big-contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+
+.contain1 {
+  padding: 5%;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.new_user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.blah {
+  background-color: #74449e;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+}
+
+.form-controll {
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  width: 120%;
+}
+
+.form-controll::placeholder {
+  color: grey !important;
+}
+
+.avatar {
+  border-radius: 70px;
+  width: 50px;
+}
+
+@media (min-width: 1101px) {
+  .back {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .back {
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: white;
+    color: #74449e !important;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.bg-darki {
+  background-color: #74449e !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+button {
+  border: none !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+.forming > div > label {
+  display: none;
+}
+
+.form-control-edit {
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  width: 120%;
+}
+
+.blahi {
+  background-color: #74449e;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+}
+
+.nav-logout {
+  border: none;
+  background-color: #74449e;
+  color: white;
+}
+
+.transaction-img {
+  background-color: #74449e;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 15px 18px;
+  border-radius: 71%;
+  cursor: pointer;
+}
+
+.category-lists-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+
+.category-li {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #74449e;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.desc {
+  display: flex;
+  gap: 20px;
+}
+
+.desc-text {
+  color: #434b54;
+}
+
+.strong {
+  color: red;
+}
+
+.all-transaction {
+  text-align: center;
+}
+
+.add-new-category {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.category-btn {
+  background-color: #74449e;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.icons > input {
+  display: none;
+}
+
+.category-btnn {
+  background-color: #74449e;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.payment > p {
+  text-align: center;
+}
+
+.payment > h2 {
+  text-align: center;
+  color: #74449e;
+}
+
+.transaction-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #74449e;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.desci {
+  text-align: center;
+}
+
+.prof {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbotron {
+  background: #211e1cb3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  margin-top: 50px;
+  padding-bottom: 80px;
+  padding-top: 50px;
+}
+
+.ontop {
+  background-image: url("caro-1.jpg");
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.alpha {
+  font-size: 60px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+
+.logo-text {
+  color: white;
+  font-size: 15px;
+}
+
+.smalll {
+  color: white;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 5px solid white;
+  padding: 5px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.welcome {
+  text-align: center;
+}

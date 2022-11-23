@@ -1,0 +1,43 @@
+ <div class="container">
+<section class="categories_controllers">
+  <section class="category-section details ">
+    <div class='payment'>
+      <div class='desci'>
+        <ion-icon id="list-img" name="<%= @category.icon %>"  class="transaction-img <%= @category.icon %>"></ion-icon>
+        <span>
+          <h3><%= @category.name %></h3>
+        </span>
+      </div>
+      <p>TOTAL EXPENSES</p>
+      <h2>$<%= @category.businesses.sum(:amount) || '0.00' %></h2>
+    </div>
+      <% if @transactions.present?%>
+        <div class="transaction-container">
+    <% @transactions.each do |transaction| %>
+    <div class='transaction'>
+      <span>
+        <h3><%= transaction.name %></h3>
+        <small><%= transaction.created_at.to_date.strftime("%d %b, %Y") %></small>
+      </span>
+         <span>
+        <h3>$<%= transaction.amount %></h3>
+      </span>
+      <span>
+         <%= button_to "Remove", category_business_path(@category,transaction), method: :delete, class: 'btn btn-danger' %>
+      </span>
+    </div>
+
+   <% end %>
+    <%= button_to "Delete Category", category_path, method: :delete, class: 'delete-categories btn btn-danger' %>
+    </div>
+    <% else %>
+    <p></p>
+    <% end %>
+
+  </section>
+  <div class='category-footer'>
+    <%= button_to "Add new transaction", new_category_business_path(@category), method: :get, class: 'category-btnn' %>
+  </div>
+</section>
+ </div>
+ 
