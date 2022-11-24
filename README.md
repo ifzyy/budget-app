@@ -70,6 +70,7 @@
 - **[User can add transaction]**
 - **[User can delete transaction]**
 - **[User can add and delete category]**
+- **[full description of project <a href="https://www.loom.com/share/ee42f9a93a164340a2c103fb29e766ee">Here</a>]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
