@@ -5,7 +5,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3>Savier</h3>
+  <h3>Microverse</h3>
 
 </div>
 
@@ -129,11 +129,6 @@ To run tests, run the following command: rspec spec spec/models/article_test.rb
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-## 🔭 Future Features <a name="future-features"></a>
-
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -142,19 +137,14 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ⭐️ Show your support <a name="support"></a>
-
 
 If you like this project please don't hesitate to star my project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank microverse for the opportunity to learn with great people and be among a great community of developers that are always there to help and All the template colors, font, and layout distribution for the whole project were designed by [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance. A link to the project [can be found here](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=). Check Gregoire for more amazing GUI and Graphic designs!
 
