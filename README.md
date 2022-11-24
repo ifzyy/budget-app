@@ -1,126 +1,193 @@
-# Project Name
+<a name="readme-top"></a>
 
-# Savier
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-# Description the project.
+Modify this file to match your project and remove sections that don't apply.
 
-Savier is a Ruby on Rails mobile web application that allows users to keep track of their expenses and categories. have a list of transactions associated with a category, so that the user can see how much money it spent and on what. Manage your own money, manage your own life.
-No better way to keep track of your money :)
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-## Built With
+After you're finished please remove all the comments and instructions!
+-->
 
-- Languages:
-  _**Ruby**_
-  _**Postgresql**_
-- Frameworks:
-  _**Ruby On Rails**_
-  _**Bootstrap**_
-- Technologies used: _**Visual Studio Code**_
+<div align="center">
 
-### Requirements
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-In order to work on this project, you need to have the following dependencies installed:
+  <h3>Savier</h3>
 
-- [Ruby](https://www.ruby-lang.org/en/)
-- [Postgresql](https://www.postgresql.org/)
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/)
-- [Rails](https://rubyonrails.org/)
+</div>
 
-### Click 👇 for the Live Demo Link
-- [Live-Demo]()
 
-### Click here for Video Link
 
-- [Video link](https://www.loom.com/share/ee42f9a93a164340a2c103fb29e766ee)
+# 📗 Table of Contents
 
-## Getting Started
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-### Clone this repository
 
-```bash
-$ git clone https://github.com/ifzyy/Budget-app.git
-$ cd recipe-app
-```
+# 📖 [Savier] <a name="about-project"></a>
 
-### Commands to run
+> Savier is a rails application that allows user keep track of their spending
 
-Run
 
-```bash
-$ bundle install
-```
+## 🛠 Built With <a name="built-with"></a>
 
-To get all the gems required for the project
+### Tech Stack <a name="tech-stack"></a>
 
-Then, run
 
-```bash
-$ npm install
-```
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+       <li><a href="https://yarnpkg.com/">Yarn</a></li>
+  </ul>
+</details>
 
-To install packages such as style linters
+<details>
+  <summary>Server</summary>
+  <ul>
+   <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+          <li><a href="https://nodejs.org/en/">node</a></li>
+  </ul>
+</details>
 
-To check linters locally, use
+<details>
+<summary>Database</summary>
+  <ul>
+   <li><a href="https://www.postgresql.org/">Postgresql</a></li>
+  </ul>
+</details>
 
-```bash
-$ rubocop
-$ npx stylelint "**/*.{css,scss}"
-```
 
-Once you have the project correctly set up, run
+### Key Features <a name="key-features"></a>
 
-```bash
-$ bin/rails db:setup
-```
+- **[User can add transaction]**
+- **[User can delete transaction]**
+- **[User can add and delete category]**
 
-To run all migrations, create the database for testing and for development, and insert some data into the database for you to visualize the changes
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Finally, each time you make changes to the project, run
+## 🚀 Live Demo <a name="live-demo"></a>
 
-```bash
-$ bundle exec rspec /spec
-```
 
-In the root folder to check the consistency of the app. Please don't make changes to the tests unless completely necessary, and mention it in your PR description.
+- [Live Demo Link](https://savier.onrender.com)
 
-Important note: Since this project uses TailwindCSS for the styling, you need to run:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```bash
-$ ./bin/dev
-```
 
-For you to see the styling being applied in the browser during development
+## 💻 Getting Started <a name="getting-started"></a>
 
-## Author
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+rails db:create
+
+
+### Setup
+
+Clone this repository to your desired folder:
+  cd my-folder
+  git clone git@github.com:ifzyy/budget-app.git
+
+### Install
+
+Install this project with:
+
+Example command:
+cd budget-app
+  bundle install
+
+### Usage
+
+To run the project, execute the following command:  rails server
+
+### Run tests
+
+To run tests, run the following command: rspec spec spec/models/article_test.rb
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 👥 Author <a name="authors"></a>
+
 
 👤 **Johnson Emmanuel**
 
 - GitHub: [@githubhandle](https://github.com/ifzyy)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/johnson-emmanuel)
 
-## 🤝 Contributing
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-### Web Design
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-All the template colors, font, and layout distribution for the whole project were designed by [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance. A link to the project [can be found here](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=). Check Gregoire for more amazing GUI and Graphic designs!
 
-## Show your support
+## ⭐️ Show your support <a name="support"></a>
 
-Give a ⭐️ if you like this project!
 
-## Acknowledgments
+If you like this project please don't hesitate to star my project
 
-- Microverse
-- LazyCoders
-- Coding Partners
-- Inspiration
-- etc
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank microverse for the opportunity to learn with great people and be among a great community of developers that are always there to help and All the template colors, font, and layout distribution for the whole project were designed by [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance. A link to the project [can be found here](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=). Check Gregoire for more amazing GUI and Graphic designs!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
