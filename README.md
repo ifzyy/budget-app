@@ -32,7 +32,7 @@ In order to work on this project, you need to have the following dependencies in
 
 ### Click here for Video Link
 
-- [Video link]()
+- [Video link](https://www.loom.com/share/ee42f9a93a164340a2c103fb29e766ee)
 
 ## Getting Started
 
