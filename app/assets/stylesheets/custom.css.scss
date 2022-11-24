@@ -22,7 +22,7 @@
 
 .contain1 {
   padding: 5%;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 15px -3px #74449e, 0 4px 6px -4px #74449e;
 }
 
 .new_user {
@@ -46,7 +46,6 @@
   border: none;
   border-bottom: 1px solid grey;
   outline: none;
-  width: 120%;
 }
 
 .form-controll::placeholder {
@@ -102,7 +101,7 @@ li {
   border: none;
   border-bottom: 1px solid grey;
   outline: none;
-  width: 120%;
+  width: 90%;
 }
 
 .blahi {

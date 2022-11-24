@@ -8,7 +8,7 @@
 
        <%= form.label :amount, class: 'mb-2 mt-4' %>
         <%= form.text_field :amount, autofocus: true, autocomplete: "amount", class:'form-control-edit mb-4', require: true%>
-          <%= form.collection_select(:category_ids, current_user.categories, :id, :name, {}, { multiple: true, class: "form-select" }) %>
+          <%= form.collection_select(:category_ids, current_user.categories, :id, :name, {}, { multiple: true, class: "form-select mb-3" }) %>
         <%= form.submit "Add Spending", class: 'blahi' %>
      <%end%>
     </div>
