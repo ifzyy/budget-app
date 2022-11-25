@@ -1,7 +1,7 @@
 databases:
-  - name: Savier
-    databaseName: budget_app_production
-    user: postgres
+  - name: budget_app
+    databaseName: budget_app
+    user: budget_app
 
 services:
   - type: web
