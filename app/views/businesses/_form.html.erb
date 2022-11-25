@@ -1,0 +1,16 @@
+<div class="big-contain">
+    <div class="contain1">
+        <h2>Add Transaction</h2>
+        <%= form_with model: business, url: category_businesses_path, :html => {:class => 'forming', :id => 'form' }  do |form| %>
+
+        <%= form.label 'Spending name', class: 'fs-5 mb-2 mt-4' %>
+        <%= form.text_field :name, autofocus: true, autocomplete: "name", class:'form-control-edit', require: true%>
+
+       <%= form.label :amount, class: 'mb-2 mt-4' %>
+        <%= form.text_field :amount, autofocus: true, autocomplete: "amount", class:'form-control-edit mb-4', require: true%>
+          <%= form.collection_select(:category_ids, current_user.categories, :id, :name, {}, { multiple: true, class: "form-select mb-3" }) %>
+        <%= form.submit "Add Spending", class: 'blahi' %>
+     <%end%>
+    </div>
+
+</div>

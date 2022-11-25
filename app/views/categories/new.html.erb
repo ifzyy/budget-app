@@ -1,0 +1,16 @@
+ <nav class="navbar navbar-dark main-bg ">
+  <div class="container">
+ <%= link_to '←', categories_path(@category), class:'text-light text-decoration-none fs-2' %>
+ <a class="navbar-brand" href="#">Categories</a>
+ </div>
+ </nav>
+<div class = 'container py-4'>
+  <h2 class = 'text-center'>ADD CATERGORY</h2>
+  <div class = 'container w-70'>
+
+    <%= render "form", category: @category %>
+
+
+</div>
+</div>
+</div>

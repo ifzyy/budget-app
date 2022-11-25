@@ -1,0 +1,29 @@
+<div class="big-contain">
+  <h1>Log in</h1>
+ <div class="contain1">
+
+  <%= form_for(resource, as: resource_name,url: session_path(resource_name))do |f| %>
+  <div class="field">
+     
+    <%= f.email_field :email, id: "email", class: "form-controll", placeholder: "Enter your email", autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div class="field">
+    <%= f.password_field :password, class: "form-controll", placeholder: "Enter password", autocomplete: "current-password" %>
+  </div>
+
+  <% if devise_mapping.rememberable? %>
+    <div class="field">
+      <%= f.check_box :remember_me %>
+      <%= f.label :remember_me %>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit "Log in", class: "blah" %>
+  </div>
+<% end %>
+<div class="need">Create new account <%= link_to "sign up", "/users/sign_up/" %></div>
+<div><%= link_to "forgot password?", "/users/password/new" %></div>
+ </div>
+</div>
