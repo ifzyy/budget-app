@@ -1,0 +1,18 @@
+databases:
+  - name: Savier
+    databaseName: budget_app_production
+    user: postgres
+
+services:
+  - type: web
+    name: Savier
+    env: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: johnson#2#3
+        fromDatabase:
+          name: mysite
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
