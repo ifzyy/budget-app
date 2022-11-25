@@ -88,5 +88,4 @@ production:
   database: budget_app_production
   username: budget_app
   password: <%= ENV["BUDGET_APP_DATABASE_PASSWORD"] %>
-  host: 127.0.0.1
-  port: 5432
+ENV["DATABASE_URL"] = "postgresql://#{ ENV['johnson#2#3'] }:#{ ENV['postgres'] }@#{ ENV['localhost'] }"
