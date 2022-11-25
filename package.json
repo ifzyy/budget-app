@@ -11,5 +11,8 @@
     "bootstrap-icons": "^1.10.2",
     "bootstrap-sass": "^3.4.3",
     "sass": "^1.56.1"
+  },
+  "scripts": {
+"build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules"
   }
 }
