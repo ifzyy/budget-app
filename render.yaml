@@ -5,14 +5,14 @@ databases:
 
 services:
   - type: web
-    name: Savier
+    name: budgetapp
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: johnson#2#3
         fromDatabase:
-          name: mysite
+          name: budgetapp
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
