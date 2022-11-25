@@ -20,7 +20,6 @@ default: &default
   password: johnson#2#3
   port: 5432
   host: localhost
-  user: postgres
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
@@ -88,4 +87,3 @@ production:
   database: budget_app_production
   username: budget_app
   password: <%= ENV["BUDGET_APP_DATABASE_PASSWORD"] %>
-   url: <%= ENV['DATABASE_URL'] %>
